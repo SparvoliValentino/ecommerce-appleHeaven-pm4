@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.header-links{
+  @apply p-4  rounded-full bg-white shadow-xl border-gray-400
+}
+.header-links:hover{
+  @apply bg-gray-100 border-2 border-black
+}
+
+.cardProduct{
+  @apply w-[190px] h-[254px] bg-[rgba(217,217,217,0.58)] border border-white shadow-[12px_17px_51px_rgba(0,0,0,0.22)] backdrop-blur-[6px] rounded-[17px] text-center cursor-pointer
+}
+
+.cardProduct:hover{
+  @apply border-black scale-[1.05]
+}
+.cardProduct:active{
+  @apply scale-[0.95] rotate-[1.7deg]
+}
+
+body{
+  background-color: #242424 ;
+  /* box-shadow:  3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
+}
+
+
+
+
+
+/* 
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;d
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
